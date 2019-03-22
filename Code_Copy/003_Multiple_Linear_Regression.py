@@ -25,6 +25,7 @@ regressor.fit(X_train, Y_train)
 # 在测试集上预测结果
 y_pred = regressor.predict(X_test)
 
+
 import matplotlib.pyplot as plt
 X1 = range(X_test.shape[0])
 plt.scatter(X1, Y_test, color='red')
