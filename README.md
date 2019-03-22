@@ -1,5 +1,16 @@
 ## 好喜欢这个项目就fork过来啦，希望自己也能变得跟大佬一样厉害^_^
 
+## 目前只完成了几个代码：
+-- 001数据预处理
+-- 002简单线性回归
+-- 003多元线性回归
+-- 004逻辑回归
+-- 011KNN
+-- 013SVM
+-- 025决策树
+-- 034随机森林
+
+
 # 机器学习100天
 
 英文原版请移步[Avik-Jain](https://github.com/Avik-Jain/100-Days-Of-ML-Code)。数据在[这里](https://github.com/MachineLearning100/100-Days-Of-ML-Code/tree/master/datasets)。
