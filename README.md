@@ -1,8 +1,12 @@
+## 好喜欢这个项目就fork过来啦，希望自己也能变得跟大佬一样厉害^_^
+
 # 机器学习100天
 
 英文原版请移步[Avik-Jain](https://github.com/Avik-Jain/100-Days-Of-ML-Code)。数据在[这里](https://github.com/MachineLearning100/100-Days-Of-ML-Code/tree/master/datasets)。
 
 翻译前请先阅读[规范](Translation%20specification.MD)。常见问题解答见[FAQ](FAQ.MD)。
+
+中文版我是forked from [MLEveryday](https://github.com/MLEveryday/100-Days-Of-ML-Code)
 
 # 目录
 - 有监督学习
