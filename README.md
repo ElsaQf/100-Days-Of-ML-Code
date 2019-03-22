@@ -1,14 +1,43 @@
 ## 好喜欢这个项目就fork过来啦，希望自己也能变得跟大佬一样厉害^_^
 
 ## 目前只完成了几个代码：
-- 001数据预处理
-- 002简单线性回归
-- 003多元线性回归
-- 004逻辑回归
-- 011KNN
-- 013SVM
-- 025决策树
-- 034随机森林
+- [001数据预处理](https://github.com/ElsaQf/100-Days-Of-ML-Code/tree/master/Code_Copy/001_Data_Preprocessing.py)
+- [002简单线性回归](https://github.com/ElsaQf/100-Days-Of-ML-Code/tree/master/Code_Copy/002_Simple_Linear_Regression)
+- [003多元线性回归](https://github.com/ElsaQf/100-Days-Of-ML-Code/tree/master/Code_Copy/003_Multiple_Linear_Regression)
+- [004逻辑回归](https://github.com/ElsaQf/100-Days-Of-ML-Code/tree/master/Code_Copy/004_Logistic_Regerssion)
+- [011KNN](https://github.com/ElsaQf/100-Days-Of-ML-Code/tree/master/Code_Copy/011_KNN)
+- [013SVM](https://github.com/ElsaQf/100-Days-Of-ML-Code/tree/master/Code_Copy/013_SVM)
+- [025决策树](https://github.com/ElsaQf/100-Days-Of-ML-Code/tree/master/Code_Copy/025_Decision_Tree)
+- [034随机森林](https://github.com/ElsaQf/100-Days-Of-ML-Code/tree/master/Code_Copy/034_Random_Forests)
+
+### 机器学习算法的使用步骤
+- 数据预处理
+  1. 导入库
+    1. numpy
+    2. pandas
+  2. 导入数据集
+    1. dataset = pd.read_csv('Data.csv')
+    2. X = dataset.iloc\[:, :-1]
+    3. y = dataset.iloc\[:, 3]
+  3. 处理丢失数据
+    1. from sklearn.preprocessing import Imputer
+    2. imputer = Imputer(missing_values="NaN", strategy="mean", axis=0)
+    3. imputer = imputer.fit(X\[:, 1:3]
+    4. X\[:, 1:3] = imputer.transform(X\[:, 1:3])
+  4. 解析分类数据
+    1. from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+    2. labelencoder_X = LabelEncoder()
+    3. X\[:, 0] = labelencoder_X.fit_transform(X\[:, 1:3])
+    4. 创建虚拟变量
+    5. onhotencoder = OneHotEncoder(categorical_features=\[0])
+    6. X =  onehotencoder.fit_transform(X).toarray()
+    7. labelencoder_Y = LabelEncoder()
+    8. Y = labelencoder_Y.fit_transform(Y)
+  5.拆分数据集为训练集和测试集
+  6.特征量化
+- 训练模型
+- 用模型预测
+- 结果可视化
 
 
 # 机器学习100天
@@ -17,7 +46,7 @@
 
 翻译前请先阅读[规范](Translation%20specification.MD)。常见问题解答见[FAQ](FAQ.MD)。
 
-中文版我是forked from [MLEveryday](https://github.com/MLEveryday/100-Days-Of-ML-Code)
+-中文版我是forked from [MLEveryday](https://github.com/MLEveryday/100-Days-Of-ML-Code)
 
 # 目录
 - 有监督学习
