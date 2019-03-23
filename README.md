@@ -42,15 +42,15 @@
       - X_train = sc.fit_transform(X_train)
       - X_test = sc.transfortm(X_test)
 - 训练模型
-      - from sklearn.linear_model import LinearRegression
-      - regressor = LinearRegression()
-      - regressor = regressor.fit(X_train, y_train)
+  1. from sklearn.linear_model import LinearRegression
+  2. regressor = LinearRegression()
+  3. regressor = regressor.fit(X_train, y_train)
 - 用模型预测
-      - y_pred = regressor.predict(X_test)
+  1. y_pred = regressor.predict(X_test)
 - 结果可视化
-      - plt.scatter(X_test, y_test, color='red')
-      - plt.plot(X_test, y_pred, color='blue')
-      - plt.show()
+  1. plt.scatter(X_test, y_test, color='red')
+  2. plt.plot(X_test, y_pred, color='blue')
+  3. plt.show()
 
 
 # 机器学习100天
