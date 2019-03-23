@@ -13,8 +13,8 @@
 ### 机器学习算法的使用步骤
 - 数据预处理
   1. 导入库
-    - numpy
-    - pandas
+      - numpy
+      - pandas
   2. 导入数据集
     1. dataset = pd.read_csv('Data.csv')
     2. X = dataset.iloc\[:, :-1]
