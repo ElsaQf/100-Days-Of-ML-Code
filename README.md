@@ -16,9 +16,9 @@
       - numpy
       - pandas
   2. 导入数据集
-    1. dataset = pd.read_csv('Data.csv')
-    2. X = dataset.iloc\[:, :-1]
-    3. y = dataset.iloc\[:, 3]
+      - dataset = pd.read_csv('Data.csv')
+        X = dataset.iloc\[:, :-1]
+        y = dataset.iloc\[:, 3]
   3. 处理丢失数据
     1. from sklearn.preprocessing import Imputer
     2. imputer = Imputer(missing_values="NaN", strategy="mean", axis=0)
